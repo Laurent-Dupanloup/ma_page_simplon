@@ -2,6 +2,11 @@
   margin: 0;
 }
 
+nav img{
+  width: 10em;
+  height: 5em;
+}
+
 body {
   font-family: 'Manrope', sans-serif;
   font-size: 1em;
