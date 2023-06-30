@@ -50,6 +50,8 @@
   margin-right: 300px;
 }
 
+
+
 body {
   font-family: 'Manrope', sans-serif;
   font-size: 1em;
@@ -117,8 +119,22 @@ a:hover {
 }
 
 .lien-icone:hover {
-  opacity: 0.5;
+  /*opacity: 0.5;*/
+  animation-duration: 0.55s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    animation-iteration-count: 10;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: rotate-logo;
 }
+
+@keyframes rotate-logo{
+  from { transform: rotateX(0deg)}
+  to { transform: rotateX(360deg)}
+}
+
 
 section {
   padding: 140px;
