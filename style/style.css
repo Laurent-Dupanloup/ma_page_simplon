@@ -58,29 +58,29 @@ body {
   background-color: #1f2039;
 }
 
-a {
+a{
   color: #242424;
   text-decoration: none;
 }
 
-em {
+em{
   /*commentaire*/
   color: #a5b4fc;
   font-style: normal;
 }
 
-h1 {
+h1{
   font-size: 3.5em;
   color: #a5b4fc;
   font-family: 'Montserrat', sans-serif;
 }
 
-h2 {
+h2{
   color: #f9f8ff;
 }
 
 p,
-li {
+li{
   font-size: 1.1em;
   color: #f9f8ff;
 }
@@ -93,12 +93,12 @@ header{
   z-index: 3;
 }
 
-footer {
+footer{
   background-color: white;
   padding: 20px 50px;
 }
 
-.cta {
+.cta{
   display: inline-block;
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
@@ -106,7 +106,7 @@ footer {
   padding: 20px 30px;
 }
 
-a:hover {
+a:hover{
   text-decoration: underline;
 }
 
