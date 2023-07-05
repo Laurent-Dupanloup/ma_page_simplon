@@ -119,7 +119,6 @@ a:hover {
 }
 
 .lien-icone:hover {
-  /*opacity: 0.5;*/
   animation-duration: 0.55s;
     animation-timing-function: linear;
     animation-delay: 0.5s;
