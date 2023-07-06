@@ -19,7 +19,7 @@
     animation-iteration-count: 10;
     animation-direction: normal;/*determine le cycle de l'animation*/
     animation-fill-mode: none;
-    animation-play-state: running;
+    animation-play-state: running;/*définit si une animation est en cours d'exécution ou si elle est en pause*/
     animation-name: rotate-vrille;
 }
 
